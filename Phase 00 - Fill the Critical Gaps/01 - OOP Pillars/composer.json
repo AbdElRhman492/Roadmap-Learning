@@ -1,0 +1,17 @@
+{
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "AbdElRhman Nasr",
+            "email": "99802763+AbdElRhman492@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6",
+        "aws/aws-sdk-php": "^3.379.0"
+    }
+}
