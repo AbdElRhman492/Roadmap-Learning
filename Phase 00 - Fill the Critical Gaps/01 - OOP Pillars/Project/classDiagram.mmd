@@ -1,0 +1,222 @@
+classDiagram
+%% Interfaces/Contracts
+class Gradable {
+<<interface>>
++grade(Submission): Result
+}
+
+    class Notifiable {
+        <<interface>>
+        +send(string, string): void
+    }
+
+    class StudentRepositoryInterface {
+        <<interface>>
+        +save(Student): void
+        +findById(int): Student
+        +all(): Student[]
+    }
+
+    class ExamRepositoryInterface {
+        <<interface>>
+        +save(Exam): void
+        +findById(int): Exam
+        +all(): Exam[]
+    }
+
+    class SubmissionRepositoryInterface {
+        <<interface>>
+        +save(Submission): void
+        +findById(int): Submission
+        +all(): Submission[]
+    }
+
+    %% Domain Entities
+    class User {
+        -id: int
+        -name: string
+        -email: string
+        +getId(): int
+        +getName(): string
+        +getEmail(): string
+    }
+
+    class Student {
+        -registrations: Exam[]
+        +registerFor(Exam): void
+        +getRegistrations(): Exam[]
+    }
+
+    class Instructor {
+        -specialty: string
+        +getSpecialty(): string
+    }
+
+    class Exam {
+        <<abstract>>
+        -id: int
+        -title: string
+        -maxScore: float
+        -status: string
+        +publish(): void
+        +getId(): int
+        +getTitle(): string
+        +getMaxScore(): float
+        +getStatus(): string
+    }
+
+    class MultipleChoiceExam {
+        -answerKey: array
+        +setAnswerKey(array): void
+        +grade(Submission): Result
+    }
+
+    class PracticalExam {
+        -criteria: array
+        +setCriteria(array): void
+        +grade(Submission): Result
+    }
+
+    class ScheduledExam {
+        -examId: int
+        -dateTime: DateTime
+        -registrationOpen: bool
+        -capacity: int
+        -enrolledCount: int
+        +openRegistration(): void
+        +closeRegistration(): void
+        +canRegister(): bool
+        +getEnrolledCount(): int
+    }
+
+    class Submission {
+        -id: int
+        -studentId: int
+        -examId: int
+        -payload: string
+        -submittedAt: DateTime
+        +getId(): int
+        +getStudentId(): int
+        +getExamId(): int
+        +getPayload(): string
+        +getSubmittedAt(): DateTime
+    }
+
+    class Result {
+        -id: int
+        -studentId: int
+        -examId: int
+        -score: float
+        -passed: bool
+        -isFinal: bool
+        +markFinal(): void
+        +getId(): int
+        +getScore(): float
+        +isPassed(): bool
+        +isFinal(): bool
+    }
+
+    %% Services
+    class ExamService {
+        -examRepo: ExamRepositoryInterface
+        +createExam(type, title, maxScore): Exam
+        +publishExam(id): void
+        +scheduleExam(examId, dateTime): ScheduledExam
+    }
+
+    class RegistrationService {
+        -studentRepo: StudentRepositoryInterface
+        -examRepo: ExamRepositoryInterface
+        +registerStudent(studentId, examId): void
+        +canRegister(studentId, examId): bool
+    }
+
+    class GradingService {
+        -examRepo: ExamRepositoryInterface
+        -submissionRepo: SubmissionRepositoryInterface
+        +grade(submissionId): Result
+    }
+
+    class NotificationService {
+        -notifiers: Notifiable[]
+        +addNotifier(Notifiable): void
+        +notify(recipient, message): void
+    }
+
+    %% Repositories
+    class InMemoryStudentRepository {
+        -students: array
+        +save(Student): void
+        +findById(int): Student
+        +all(): Student[]
+    }
+
+    class InMemoryExamRepository {
+        -exams: array
+        +save(Exam): void
+        +findById(int): Exam
+        +all(): Exam[]
+    }
+
+    class InMemorySubmissionRepository {
+        -submissions: array
+        +save(Submission): void
+        +findById(int): Submission
+        +all(): Submission[]
+    }
+
+    %% Notifiers
+    class EmailNotifier {
+        +send(recipient, message): void
+    }
+
+    class SmsNotifier {
+        +send(recipient, message): void
+    }
+
+    class LogNotifier {
+        +send(recipient, message): void
+    }
+
+    %% Exceptions
+    class DomainException {
+        <<exception>>
+    }
+
+    class InvalidStateTransitionException {
+        <<exception>>
+    }
+
+    %% Relationships
+    Student --|> User
+    Instructor --|> User
+
+    MultipleChoiceExam --|> Exam
+    PracticalExam --|> Exam
+
+    Exam ..|> Gradable
+    MultipleChoiceExam ..|> Gradable
+    PracticalExam ..|> Gradable
+
+    EmailNotifier ..|> Notifiable
+    SmsNotifier ..|> Notifiable
+    LogNotifier ..|> Notifiable
+
+    InMemoryStudentRepository ..|> StudentRepositoryInterface
+    InMemoryExamRepository ..|> ExamRepositoryInterface
+    InMemorySubmissionRepository ..|> SubmissionRepositoryInterface
+
+    InvalidStateTransitionException --|> DomainException
+
+    ExamService --> ExamRepositoryInterface
+    RegistrationService --> StudentRepositoryInterface
+    RegistrationService --> ExamRepositoryInterface
+    GradingService --> ExamRepositoryInterface
+    GradingService --> SubmissionRepositoryInterface
+    NotificationService --> Notifiable
+
+    ScheduledExam --> Exam
+    Submission --> Student
+    Submission --> Exam
+    Result --> Student
+    Result --> Exam
