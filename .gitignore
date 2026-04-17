@@ -1,11 +1,32 @@
+# Dependencies
 vendor/
+node_modules/
 
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# System files
 .DS_Store
+
+# IDEs
 .idea/
 .vscode/
 *.iml
 
+# Storage / runtime
 storage/
+storage/*.key
+storage/logs/
+storage/framework/
+storage/app/public
 
-.env
-.env.local
+# Cache
+bootstrap/cache/
+
+# Logs
+*.log
+
+# OS files
+Thumbs.db
