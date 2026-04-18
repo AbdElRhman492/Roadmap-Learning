@@ -1,35 +1,35 @@
 # Learning Progress Tracker
 
-**Last Updated:** April 18, 2026  
-**Current Phase:** Phase 00 - Fill the Critical Gaps  
-**Overall Progress:** 3/40 modules (7.5%) - Currently working on Dependency Injection & IoC
+**Last Updated:** April 18, 2026
+**Current Phase:** Phase 00 - Fill the Critical Gaps
+**Overall Progress:** 4/40 modules (10%) — OOP, SOLID, DI&IoC, N+1 Problem Completed!
 
 ---
 
 ## 📊 Progress Summary
 
-| Phase    | Title                          | Status         | Completion      |
-| -------- | ------------------------------ | -------------- | --------------- |
-| Phase 00 | Fill the Critical Gaps         | 🔄 In Progress | 2-3/6 completed |
-| Phase 01 | Laravel Deep Mastery           | ⏳ Not Started | 0/11            |
-| Phase 02 | Database & Performance         | ⏳ Not Started | 0/6             |
-| Phase 03 | Security, Testing & Clean Code | ⏳ Not Started | 0/6             |
-| Phase 04 | Job-Ready Polish               | ⏳ Not Started | 0/6             |
+| Phase    | Title                          | Status         | Completion |
+| -------- | ------------------------------ | -------------- | ---------- |
+| Phase 00 | Fill the Critical Gaps         | 🔄 In Progress | 4/6        |
+| Phase 01 | Laravel Deep Mastery           | ⏳ Not Started | 0/11       |
+| Phase 02 | Database & Performance         | ⏳ Not Started | 0/6        |
+| Phase 03 | Security, Testing & Clean Code | ⏳ Not Started | 0/6        |
+| Phase 04 | Job-Ready Polish               | ⏳ Not Started | 0/6        |
 
 ---
 
 ## Phase 00: Fill the Critical Gaps
 
-### ✅ 01 - OOP Pillars (COMPLETED - 100%)
+### ✅ 01 - OOP Pillars (COMPLETED — 100%)
 
 **Status:** ✅ COMPLETE with Professional Project
 
 **Topics Mastered:**
 
-- ✅ **Encapsulation** - Data hiding with private properties, controlled access via methods
-- ✅ **Inheritance** - Base classes (User, Exam) with proper subclass specialization
-- ✅ **Polymorphism** - Runtime type behavior, method overriding, interface implementations
-- ✅ **Abstraction** - Abstract classes, interfaces, hiding implementation complexity
+- ✅ **Encapsulation** — Data hiding with private properties, controlled access via methods
+- ✅ **Inheritance** — Base classes (User, Exam) with proper subclass specialization
+- ✅ **Polymorphism** — Runtime type behavior, method overriding, interface implementations
+- ✅ **Abstraction** — Abstract classes, interfaces, hiding implementation complexity
 
 **Project: Exam Management System**
 
@@ -46,11 +46,11 @@
 
 **Key Files:**
 
-- `code-examples.php` - 50+ practical OOP examples
-- `notes.md` - Detailed theoretical explanations
-- `workshop.php` - Hands-on exercises
-- `Project/index.php` - Complete end-to-end demo
-- `Project/src/` - 27 well-organized source files
+- `code-examples.php` — 50+ practical OOP examples
+- `notes.md` — Detailed theoretical explanations
+- `workshop.php` — Hands-on exercises
+- `Project/index.php` — Complete end-to-end demo
+- `Project/src/` — 27 well-organized source files
 
 **Test Results:** ✅ All scenarios pass
 
@@ -73,29 +73,29 @@
 
 ---
 
-### ✅ 02 - SOLID Principles (COMPLETED - 100%)
+### ✅ 02 - SOLID Principles (COMPLETED — 100%)
 
 **Status:** ✅ COMPLETE with Comprehensive Documentation
 
 **Topics Covered:**
 
-- ✅ **S** - Single Responsibility Principle
+- ✅ **S** — Single Responsibility Principle
   - Bad examples (violations)
   - Good examples (correct implementation)
   - Multiple repo/service pattern
-- ✅ **O** - Open/Closed Principle
+- ✅ **O** — Open/Closed Principle
   - Bad: `if/else` chains for different types
   - Good: Interface-based polymorphism
   - Extension without modification
-- ✅ **L** - Liskov Substitution Principle
+- ✅ **L** — Liskov Substitution Principle
   - Bad: Subclass breaks parent contract
   - Good: All subtypes behave correctly
   - Interface-based design
-- ✅ **I** - Interface Segregation Principle
+- ✅ **I** — Interface Segregation Principle
   - Bad: Fat interfaces with unrelated methods
   - Good: Specific, focused interfaces
   - Multiple interface implementation
-- ✅ **D** - Dependency Inversion Principle
+- ✅ **D** — Dependency Inversion Principle
   - Bad: Direct concrete dependencies
   - Good: Interface dependencies
   - Dependency injection pattern
@@ -109,10 +109,8 @@
 
 **Files:**
 
-- `code-examples.php` - 40+ code examples with violations and corrections
-- `notes.md` - Comprehensive theoretical guide
-- Real violations identified
-- Practical refactoring demonstrated
+- `code-examples.php` — 40+ code examples with violations and corrections
+- `notes.md` — Comprehensive theoretical guide
 
 **Key Achievements:**
 
@@ -125,48 +123,46 @@
 
 ---
 
-### � 03 - Dependency Injection & IoC (IN PROGRESS)
+### ✅ 03 - Dependency Injection & IoC (COMPLETED — 100%)
 
-**Status:** 🔄 IN PROGRESS - Core concepts documented
+**Status:** ✅ COMPLETE with Production-Ready Examples
 
 **Topics Covered:**
 
-- ✅ **What is DI and why it matters** - Philosophy and benefits
+- ✅ **What is DI and why it matters** — Philosophy and benefits
   - Loose coupling vs tight coupling
   - Testability improvements
   - Flexibility and maintainability
-- ✅ **Constructor Injection** - Most common pattern
+- ✅ **Constructor Injection** — Most common pattern
   - Dependencies passed via constructor
   - Type hinting for clarity
   - Application in practice
-- ✅ **Method Injection** - Alternative approach
+- ✅ **Method Injection** — Alternative approach
   - Injecting dependencies into methods
   - Use cases and examples
   - Flexibility and trade-offs
-- ✅ **Service Container** - The core mechanism
+- ✅ **Service Container** — The core mechanism
   - Understanding container resolution
   - Binding and resolution process
   - Container lifecycle
   - Manual container creation example
-- ✅ **Service Providers** - Laravel's approach
+- ✅ **Service Providers** — Laravel's approach
   - `register()` vs `boot()` methods
   - Binding services to the container
   - Best practices
-- ✅ **Binding Interfaces to Implementations** - Critical pattern
+- ✅ **Binding Interfaces to Implementations** — Critical pattern
   - Interface segregation
   - Multiple implementations
   - Runtime binding selection
-- ✅ **Singletons in the Container** - Caching pattern
+- ✅ **Singletons in the Container** — Caching pattern
   - Singleton binding
   - Lazy instantiation
   - Shared instances
 
 **Files:**
 
-- `code-examples.php` - 60+ practical examples with all 7 pillars
-- `notes.md` - Comprehensive theoretical guide
-- Beginner-friendly progressions
-- Real-world Laravel container patterns
+- `code-examples.php` — 60+ practical examples with all 7 pillars
+- `notes.md` — Comprehensive theoretical guide
 
 **Key Achievements:**
 
@@ -180,42 +176,79 @@
 
 ---
 
-### 📌 04 - N+1 Problem - Full Mastery (NOT STARTED)
+### ✅ 04 - N+1 Problem (COMPLETED — 100%)
 
-\*\*Expecte████░░░░░░] 50% (3/6 modules: 2 complete, 1 in progress
+**Status:** ✅ COMPLETE with Comprehensive Explanations and Examples
 
-- Problem identification
-- Query optimization
-- Eager loading
-- Lazy loading strategies
+**Topics Covered:**
 
-**Status:** ⏳ Upcoming
+- ✅ **Understanding the N+1 Problem**
+  - What is N+1 and why it matters at scale
+  - Real-world impact on performance
+  - Query reduction from 101 to 2 queries
+- ✅ **Eager Loading with `with()`**
+  - Single relationships
+  - Multiple relationships
+  - Syntax and best practices
+- ✅ **Nested Eager Loading with Dot Notation**
+  - Loading relationships of relationships
+  - Multiple nesting levels
+  - Query optimization strategies
+- ✅ **`withCount()` — Count Without Loading**
+  - Count relationships without loading data
+  - Conditional counting
+  - Multiple counts with aliases
+- ✅ **Lazy Eager Loading (After Fetch)**
+  - `load()` and `loadMissing()` methods
+  - When to use and avoid
+  - Conditional loading patterns
+- ✅ **Column Selection (`select()`)**
+  - Avoiding unnecessary columns
+  - Foreign key inclusion
+  - Optimized queries
+- ✅ **Detecting N+1 Problems**
+  - Laravel Debugbar setup and usage
+  - Query logging techniques
+  - Testing for N+1 in unit tests
 
----
+**Files:**
 
-### 📌 04 - N+1 Problem - Full Mastery (NOT STARTED)
+- `code-examples.php` — 700+ lines of practical examples
+  - Problem demonstration (bad vs good)
+  - All eager loading patterns
+  - Real-world scenarios
+  - Repository patterns
+  - Testing examples
+- `notes.md` — Comprehensive theoretical guide
+  - Performance comparisons
+  - Best practices checklist
+  - Advanced techniques
+  - Checkpoint questions
 
-**Expected Topics:**
+**Key Achievements:**
 
-- Problem identification
-- Query optimization
-- Eager loading
-- Lazy loading strategies
-
-**Status:** ⏳ Upcoming
+- ✅ Complete N+1 problem explained with SQL comparisons
+- ✅ All 7 optimization techniques documented
+- ✅ Real-world controller and API examples
+- ✅ Repository pattern with optimized queries
+- ✅ Unit test examples for N+1 detection
+- ✅ Performance metrics and benchmarks
+- ✅ Best practices and anti-patterns identified
 
 ---
 
 ### 📌 05 - CSRF & XSS (NOT STARTED)
 
-**Expected Topics:**
+**Topics:**
 
-- CSRF token handling
-- XSS prevention
-- Input validation
-- Output encoding
+- What CSRF is and how the attack works
+- How @csrf token protects forms
+- Why Sanctum API tokens aren't vulnerable
+- XSS - injecting malicious JS
+- How Blade {{  }} auto-escapes
+- When to use {!! !!} and why it's dangerous
 
-**Status:** ⏳ Upcoming
+**Status:** ⏳ Up Next
 
 ---
 
@@ -223,10 +256,20 @@
 
 **Expected Topics:**
 
-- SQL injection attacks
-- Prepared statements
-- ORM protection
-- Input sanitization
+- How SOL injection attacks work
+- PDO prepared statements explained
+- Why Eloquent / QB are safe by default
+- Dangerous patterns - raw DB::select with svar
+- DB::raw() - when safe and when not
+- Mass assignment - $fillable vs $guarded
+
+**Status:** ⏳ Upcoming
+
+---
+
+### 📌 Checkpoint (NOT STARTED)
+
+**Expected:** Assessment and integration of all Phase 00 concepts
 
 **Status:** ⏳ Upcoming
 
@@ -237,17 +280,16 @@
 ### Phase 00 Progress
 
 ```
-[████████░░░░░░░░] 16.67% (1/6 modules complete)
+[████████████░░░░░░] 66.67% (4/6 modules complete)
 
-Completed: OOP Pillars
-In Progress: SOLID Principles
-Remaining: 4 modules
+Completed: OOP Pillars, SOLID Principles, DI&IoC, N+1 Problem
+Remaining: CSRF & XSS, SQL Injection, Checkpoint
 ```
 
 ### Overall Learning Progress
 
 ```
-[██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 5% (2/40 modules)
+[███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 10% (4/40 modules)
 ```
 
 ---
@@ -290,24 +332,25 @@ Remaining: 4 modules
 
 ## 📈 Next Steps
 
-### Immediate (Next Phase)
+### Immediate
 
-1. ✅ Complete SOLID Principles documentation
-2. ⏳ Create practical exercises
-3. ⏳ Set up checkpoint project
+1. ⏳ Start CSRF & XSS (Module 05)
+2. ⏳ Complete SQL Injection (Module 06)
+3. ⏳ Finish Phase 00 Checkpoint
 
 ### Short Term
 
-1. Start Dependency Injection & IoC
-2. Deep dive into N+1 problem
-3. Comprehensive security review
+1. Begin Phase 01 — Laravel Deep Mastery
+2. Apply security concepts in real Laravel projects
+3. Build on DI/IoC foundations with Laravel service providers
 
 ### Learning Velocity
 
-- **Week 1-2:** Foundation principles (OOP) ✅ DONE
-- **Week 2-3:** Design patterns (SOLID) 🔄 IN PROGRESS
-- **Week 3-4:** Architecture (DI/IoC)
-- **Week 4+:** Real-world application
+- **Week 1–2:** Foundation principles (OOP) ✅ DONE
+- **Week 2–3:** Design patterns (SOLID) ✅ DONE
+- **Week 3–4:** Architecture (DI/IoC) ✅ DONE
+- **Week 4–5:** Query optimization (N+1) ✅ DONE
+- **Week 5–6:** Security (CSRF, XSS, SQL Injection) 🔄 IN PROGRESS
 
 ---
 
@@ -335,6 +378,7 @@ Remaining: 4 modules
 3. Interfaces are more powerful than inheritance alone
 4. Dependency injection is essential for testability
 5. Business rules should be enforced at the service level
+6. N+1 queries are silent performance killers — eager loading is critical
 
 ---
 
@@ -353,112 +397,25 @@ Remaining: 4 modules
 
 ## 📚 Resources Used
 
-- PHP 8.5.5
+- PHP 8
 - Object-Oriented Programming Principles
 - SOLID Design Principles
 - Clean Code concepts
 - Professional PHP patterns
+- Laravel Eloquent & Service Container
 
 ---
 
 ## 🎓 Certification Status
 
-**Phase 00 - Module 01: OOP Pillars**
-
-- Status: ✅ MASTERED
-- Proficiency: 95/100
-- Ready for: Next module
-
-**Phase 00 - Module 02: SOLID Principles**
-
-- Status: 🔄 IN PROGRESS (80% complete)
-- Estimated Completion: This session
-- Ready for: DI/IoC module
-
----
-
-**Last Updated:** April 17, 2026  
-**Duration:** ~4-5 hours intensive learning  
-**Recommended Review:** Daily for 1 week before proceeding
-
-- I - Interface Segregation Principle
-- D - Dependency Inversion Principle
-
----
-
-### 📌 03 - Dependency Injection & IoC (NOT STARTED)
-
-**Expected Topics:**
-
-- Dependency Injection patterns
-- Inversion of Control containers
-- Service locators
-
----
-
-### 📌 04 - N+1 Problem - Full Mastery (NOT STARTED)
-
-**Expected Topics:**
-
-- Identifying N+1 query problems
-- Query optimization techniques
-- Eager loading strategies
-
----
-
-### 📌 05 - CSRF & XSS (NOT STARTED)
-
-**Expected Topics:**
-
-- Cross-Site Request Forgery prevention
-- Cross-Site Scripting vulnerabilities
-- Security best practices
-
----
-
-### 📌 06 - SQL Injection (NOT STARTED)
-
-**Expected Topics:**
-
-- SQL injection attacks
-- Prepared statements
-- Parameterized queries
-
----
-
-### 📌 Checkpoint (NOT STARTED)
-
-**Expected:** Assessment and integration of Phase 00 concepts
-
----
-
-## 📚 What You've Learned (OOP)
-
-### Core Concepts Mastered:
-
-1. ✅ **Classes and Objects** - Creating, instantiating, and using objects
-2. ✅ **Access Modifiers** - Public, private, protected properties and methods
-3. ✅ **Inheritance** - Extending classes with `extends` keyword
-4. ✅ **Interfaces** - Defining contracts that classes must implement
-5. ✅ **Abstract Classes** - Creating templates for subclasses
-6. ✅ **Polymorphism** - Method overriding and dynamic behavior
-7. ✅ **Constructors** - Object initialization with `__construct()`
-8. ✅ **Static Methods** - Class-level functionality
-
-### Practical Skills:
-
-- Writing clean, organized code with OOP principles
-- Creating reusable class hierarchies
-- Implementing design patterns using OOP
-- Understanding when to use inheritance vs. interfaces
-
----
-
-## 🎯 Next Steps
-
-1. **Immediate:** Review Phase 00 - 02 (SOLID Principles)
-2. **Review Period:** Before moving to next phase, ensure all Phase 00 concepts are solid
-3. **Checkpoint:** Complete Phase 00 Checkpoint to assess integration
+| Module                              | Status         | Proficiency |
+| ----------------------------------- | -------------- | ----------- |
+| Phase 00 — 01: OOP Pillars          | ✅ MASTERED    | 95/100      |
+| Phase 00 — 02: SOLID Principles     | ✅ MASTERED    | 95/100      |
+| Phase 00 — 03: Dependency Injection | ✅ MASTERED    | 95/100      |
+| Phase 00 — 04: N+1 Problem          | ✅ MASTERED    | 95/100      |
+| Phase 00 — 05: CSRF & XSS           | ⏳ Not Started | —           |
+| Phase 00 — 06: SQL Injection        | ⏳ Not Started | —           |
 
 ---
 
@@ -467,10 +424,11 @@ Remaining: 4 modules
 When moving to a new module:
 
 1. Change the status from "NOT STARTED" to "🔄 IN PROGRESS"
-2. Update the completion count (e.g., 1/6 → 2/6)
-3. Add key learnings to the "What You've Learned" section
-4. Update "Last Updated" date
-5. Once completed, change status to "✅ COMPLETED"
+2. Update the completion count in the Progress Summary table
+3. Update the overall count in the header (X/40 modules)
+4. Add key learnings to the relevant sections
+5. Update "Last Updated" date
+6. Once completed, change status to "✅ COMPLETED" and update the Certification Status table
 
 ---
 

@@ -2,108 +2,128 @@
 
 Welcome to your comprehensive learning journey from PHP fundamentals to job-ready Laravel expertise.
 
+---
+
 ## 📍 Quick Navigation
 
-- **[📊 Progress Tracker](./PROGRESS.md)** - View your learning progress and completed modules
-- **[🎯 Current Module](./Phase%2000%20-%20Fill%20the%20Critical%20Gaps/03%20-%20Dependency%20Injection%20%26%20IoC/)** - Dependency Injection & IoC (In Progress)
-- **[✅ Completed: OOP Pillars](./Phase%2000%20-%20Fill%20the%20Critical%20Gaps/01%20-%20OOP%20Pillars/)** and **[✅ SOLID Principles](./Phase%2000%20-%20Fill%20the%20Critical%20Gaps/02%20-%20SOLID%20Principles/)** - Both Complete!
+- **[📊 Progress Tracker](./PROGRESS.md)** — View your learning progress and completed modules
+- **[🎯 Current Module](./Phase%2000%20-%20Fill%20the%20Critical%20Gaps/05%20-%20CSRF%20%26%20XSS/)** — CSRF & XSS (Up Next)
+- **[✅ Completed: OOP, SOLID, DI&IoC, N+1](./Phase%2000%20-%20Fill%20the%20Critical%20Gaps/)** — 4 modules complete!
+
+---
 
 ## 📊 Learning Status Summary
 
 | Item                      | Status         | Details                                       |
 | ------------------------- | -------------- | --------------------------------------------- |
-| **Phase 00: Foundations** | 🔄 In Progress | 2-3/6 complete (2 finished, 1 in progress)    |
+| **Phase 00: Foundations** | 🔄 In Progress | 4/6 complete                                  |
 | **OOP Pillars**           | ✅ COMPLETE    | 4/4 pillars mastered, production project done |
 | **SOLID Principles**      | ✅ COMPLETE    | 5/5 principles documented, examples complete  |
-| **DI & IoC**              | 🔄 IN PROGRESS | 7/7 pillars documented, code examples ready   |
-| **Overall Progress**      | 📈 7.5%        | 3/40 modules (2 complete, 1 in progress)      |
+| **DI & IoC**              | ✅ COMPLETE    | 7/7 pillars documented, production patterns   |
+| **N+1 Problem**           | ✅ COMPLETE    | All 7 techniques with SQL comparisons         |
+| **CSRF & XSS**            | ⏳ Up Next     | Starting next                                 |
+| **Overall Progress**      | 📈 10%         | 4/40 modules complete                         |
+
+---
 
 ## 📚 Curriculum Overview
 
-Your learning journey is divided into **4 main phases** with **40 modules** total:
+Your learning journey is divided into **5 phases** with **40 modules** total.
 
-### **Phase 00: Fill the Critical Gaps** (Foundation & Security)
+### Phase 00: Fill the Critical Gaps (Foundation & Security)
 
 Build solid PHP foundations and learn critical security concepts.
 
-1. ✅ **OOP Pillars** - COMPLETED
+1. ✅ **OOP Pillars** — COMPLETED
    - All 4 pillars mastered (Encapsulation, Inheritance, Polymorphism, Abstraction)
-   - Professional exam management project with 27 files, 1000+ lines
+   - Professional exam management project: 27 files, 1000+ lines
    - All SOLID principles applied within project
 
-2. ✅ **SOLID Principles** - COMPLETED
-   - S - Single Responsibility ✅
-   - O - Open/Closed ✅
-   - L - Liskov Substitution ✅
-   - I - Interface Segregation ✅
-   - D - Dependency Inversion ✅
-     🔄 **Dependency Injection & IoC** (IN PROGRESS)
-   - Concepts: DI philosophy, types of injection, containers
+2. ✅ **SOLID Principles** — COMPLETED
+   - S — Single Responsibility ✅
+   - O — Open/Closed ✅
+   - L — Liskov Substitution ✅
+   - I — Interface Segregation ✅
+   - D — Dependency Inversion ✅
+
+3. ✅ **Dependency Injection & IoC** — COMPLETED
+   - All 7 pillars with code examples
    - Service Providers (boot vs register)
    - Interface binding and singletons
-   - All 7 pillars with code examples
-3. Dependency Injection & IoC
-4. N+1 Problem - Full Mastery
-5. CSRF & XSS
-6. SQL Injection
+   - Laravel container patterns
 
-### **Phase 01: Laravel Deep Mastery** (Framework Expertise)
+4. ✅ **N+1 Problem — Full Mastery** — COMPLETED
+   - Eager loading with `with()` ✅
+   - Nested eager loading ✅
+   - `withCount()` — Count without loading ✅
+   - Lazy eager loading strategies ✅
+   - Column selection optimization ✅
+   - Detecting N+1 problems ✅
+   - 700+ lines of production examples
+
+5. ⏳ **CSRF & XSS** — UP NEXT
+   - CSRF token handling
+   - XSS prevention
+   - Input validation
+   - Output encoding
+
+6. 📌 **SQL Injection** — Upcoming
+
+### Phase 01: Laravel Deep Mastery (Framework Expertise)
 
 Master Laravel framework internals and advanced patterns.
 
 - Laravel Request Lifecycle
-- Eloquent ORM - Advanced
+- Eloquent ORM — Advanced
 - Queues & Jobs
-- Middleware - Write Your Own
+- Middleware — Write Your Own
 - REST API Best Practices
-- Authentication - Sanctum Deep Dive
-- Routing - Advanced
+- Authentication — Sanctum Deep Dive
+- Routing — Advanced
 - Laravel Architecture Patterns
 - Events & Listeners
 - Caching
 
-### **Phase 02: Database & Performance** (Database Mastery)
+### Phase 02: Database & Performance (Database Mastery)
 
 Optimize database queries and master performance techniques.
 
-- MySQL Joins - All Types
-- Indexing - Deep Mastery
+- MySQL Joins — All Types
+- Indexing — Deep Mastery
 - Transactions & Data Integrity
 - Query Optimization
-- Database Migrations - Advanced
+- Database Migrations — Advanced
 - Redis & Caching Strategy
 
-### **Phase 03: Security, Testing & Clean Code** (Production Ready)
+### Phase 03: Security, Testing & Clean Code (Production Ready)
 
 Write secure, tested, maintainable code.
 
-- Security - All Major Attacks
-- Testing - PHPUnit & Pest
+- Security — All Major Attacks
+- Testing — PHPUnit & Pest
 - Clean Code Practices
 - Error Handling & Logging
-- Git - Professional Level
+- Git — Professional Level
 - API Documentation
 
-### **Phase 04: Job-Ready Polish** (Career Ready)
+### Phase 04: Job-Ready Polish (Career Ready)
 
 Build portfolio, prepare for interviews, and freelance setup.
 
-- Portfolio Project - Exam Management API
+- Portfolio Project — Exam Management API
 - Interview Preparation
 - Freelance Setup
 - Deployment Basics
 - PHP 8 Modern Features
 - What's Next After Junior
 
+---
+
 ## ✅ What You've Completed
 
-### ✨ Phase 00, Module 01: OOP Pillars
+### Phase 00, Module 01 — OOP Pillars ✅
 
-**Status: MASTERY LEVEL ✅**
-
-You've successfully completed a comprehensive OOP learning project that demonstrates all four pillars:
-
-#### Deliverables:
+**Status: MASTERY LEVEL**
 
 - ✅ **27 PHP files** organized with PSR-4 namespacing
 - ✅ **1000+ lines** of production-quality code
@@ -112,23 +132,9 @@ You've successfully completed a comprehensive OOP learning project that demonstr
 - ✅ **3 repository implementations** for data access
 - ✅ **Complete workflow** from exam creation to grading to notifications
 
-#### Key Achievements:
+Key achievements: Encapsulation, Inheritance, Polymorphism, Abstraction — all applied in a real project with polymorphic grading, polymorphic notifications, 8-step business rule validation, and custom exception handling.
 
-1. **Encapsulation** - Data hiding with private properties, controlled access
-2. **Inheritance** - Proper base class design (User, Exam) with specialization
-3. **Polymorphism** - Different exam types with different grading logic
-4. **Abstraction** - Abstract classes, interfaces hiding complexity
-
-#### Project Features:
-
-- Polymorphic grading (MultipleChoiceExam vs PracticalExam)
-- Polymorphic notifications (Email, SMS, Log notifiers)
-- Business rule validation (8-step registration process)
-- Error handling with custom exceptions
-- Clean service layer architecture
-- Comprehensive end-to-end demonstration
-
-#### Files:
+**Files:**
 
 - [📄 Project README](./Phase%2000%20-%20Fill%20the%20Critical%20Gaps/01%20-%20OOP%20Pillars/Project/README.md)
 - [💻 Complete Workflow Demo](./Phase%2000%20-%20Fill%20the%20Critical%20Gaps/01%20-%20OOP%20Pillars/Project/index.php)
@@ -136,120 +142,64 @@ You've successfully completed a comprehensive OOP learning project that demonstr
 
 ---
 
-### ✅ Phase 00, Module 02: SOLID Principles
+### Phase 00, Module 02 — SOLID Principles ✅
 
-**Status: COMPLETE (100%) ✅**
+**Status: COMPLETE (100%)**
 
-Successfully documented all SOLID principles with comprehensive examples:
+- ✅ **code-examples.php** — 40+ practical examples (violations + correct implementations + real-world refactoring)
+- ✅ **notes.md** — Comprehensive guide covering all 5 principles, red flags, and integration with OOP
 
-#### Completed:
-
-- ✅ **code-examples.php** - 40+ practical examples
-  - Violations of each principle (❌ Bad examples)
-  - Correct implementations (✅ Good examples)
-  - Real-world refactoring (Fat controller → clean design)
-- ✅ **notes.md** - Comprehensive guide
-  - Definition and problem statement for each principle
-  - Detailed bad/good examples with explanations
-  - Benefits and impact
-  - Red flags for identifying violations
-  - Integration with OOP principles
-
-#### Principles Documented:
-
-1. **S** - Single Responsibility Principle
-   - One job per class
-   - Multiple repositories instead of one God class
-2. **O** - Open/Closed Principle
-   - Extend without modifying existing code
-   - Interface-based polymorphism over if/else chains
-3. **L** - Liskov Substitution Principle
-   - Subtypes must behave like parent types
-   - Rectangle/Square problem solved correctly
-4. **I** - Interface Segregation Principle
-   - Specific interfaces instead of fat interfaces
-   - Robot doesn't implement `eat()` and `sleep()`
-5. **D** - Dependency Inversion Principle
-   - Depend on abstractions, not concrete classes
-   - Services inject interfaces via constructor
-
-#### All Complete:
-
-- ✅ All 5 SOLID principles explained with code
-- ✅ Violation examples for recognition
-- ✅ Correct implementations
-- ✅ Real-world refactoring case study
-- ✅ Checklist for identifying violations
-- ✅ Benefits clearly explained
+All 5 principles documented: Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, Dependency Inversion.
 
 ---
 
-## 🎯 Your Next Focus
+### Phase 00, Module 03 — Dependency Injection & IoC ✅
 
-### Start: Dependency Injection & IoC Module
+**Status: COMPLETE (100%)**
 
-Now that you've mastered OOP and SOLID, you're ready for advanced architectural patterns:
+- ✅ **code-examples.php** — 60+ practical examples covering all 7 pillars
+- ✅ **notes.md** — Comprehensive guide with Laravel container patterns
 
-- Service Container design
-- Dependency resolution strategies
-- IoC Container implementation
-- Laravel's container deep dive
+Covered: Constructor & Method Injection, Service Container, Service Providers, Interface binding, Singletons.
 
-### This Session's Achievements:
+---
 
-1. ✅ Fixed namespace issues across 21 PHP files
-2. ✅ Created complete OOP project (27 files, production-quality)
-3. ✅ Implemented all 4 OOP pillars in real code
-4. ✅ Created comprehensive SOLID Principles documentation
-5. ✅ Updated project status and progress tracking
-6. ✅ Marked SOLID Principles as COMPLETED (100%)
+### Phase 00, Module 04 — N+1 Problem ✅
 
-### Files Updated This Session:
+**Status: COMPLETE (100%)**
 
-- ✅ Project README with completion metrics
-- ✅ SOLID Principles notes.md with full guide
-- ✅ code-examples.php with 40+ SOLID examples
-- ✅ PROGRESS.md with detailed status (now 3/40 modules)
-- ✅ Main README.md with navigation updates
+- ✅ **code-examples.php** — 700+ lines covering all 7 optimization techniques
+- ✅ **notes.md** — Performance comparisons, best practices, advanced techniques
 
-## 📖 How to Use This Repository
+Covered: `with()`, nested eager loading, `withCount()`, `load()` / `loadMissing()`, column selection, N+1 detection with Debugbar and unit tests.
 
-1. Navigate to each phase and module in order
-2. Read `notes.md` for detailed explanations
-3. Study `code-examples.php` for practical implementations
-4. Complete `workshop.php` exercises (if provided)
-5. Update [PROGRESS.md](./PROGRESS.md) as you complete each module
-6. Use the checkpoint modules to review and assess integration
+---
 
-## 🔄 Recommended Study Routine
+## 📊 Progress Dashboard
 
-### Daily Review (15-30 min)
+```
+Phase 00: Fill the Critical Gaps
+[████████████░░░░░░░░] 66.67% (4/6 modules)
 
-```bash
-# 1. Review notes and examples
-code "Phase 00 - Fill the Critical Gaps/02 - SOLID Principles/"
+OOP Pillars:      ✅ Complete
+SOLID Principles: ✅ Complete
+DI & IoC:         ✅ Complete
+N+1 Problem:      ✅ Complete
+CSRF & XSS:       ⏳ Up Next
+SQL Injection:    📌 Upcoming
 
-# 2. Run the OOP project
-php "Phase 00 - Fill the Critical Gaps/01 - OOP Pillars/Project/index.php"
-
-# 3. Check progress
-cat PROGRESS.md
+Overall: 4/40 modules = 10%
 ```
 
-### Deep Study Session (1-2 hours)
+---
 
-1. Read all section notes in current module
-2. Study code examples line-by-line
-3. Modify examples to understand better
-4. Look for violations in your own code
-5. Plan refactoring using new principles
+## 🎯 Next Milestone
 
-### Weekly Review
+**Completed:** N+1 Problem ✅
+**Current Target:** CSRF & XSS (Module 05)
+**After That:** SQL Injection (Module 06) → Phase 00 Checkpoint → Phase 01
 
-1. Complete checkpoint module
-2. Integrate learning into sample projects
-3. Update PROGRESS.md
-4. Plan next week's modules
+---
 
 ## 🎓 Learning Objectives Achieved
 
@@ -263,11 +213,11 @@ cat PROGRESS.md
 
 ### SOLID Foundation ✅
 
-- [x] Single Responsibility - One class, one job
-- [x] Open/Closed - Extensible without modification
-- [x] Liskov Substitution - Proper inheritance behavior
-- [x] Interface Segregation - Focused contracts
-- [x] Dependency Inversion - Abstract dependencies
+- [x] Single Responsibility — One class, one job
+- [x] Open/Closed — Extensible without modification
+- [x] Liskov Substitution — Proper inheritance behavior
+- [x] Interface Segregation — Focused contracts
+- [x] Dependency Inversion — Abstract dependencies
 
 ### Architecture Skills ✅
 
@@ -277,147 +227,37 @@ cat PROGRESS.md
 - [x] Exception hierarchy
 - [x] PSR-4 namespacing
 
+### Query Optimization ✅
+
+- [x] Identify N+1 problems
+- [x] Apply eager loading strategies
+- [x] Use `withCount()` and `loadMissing()`
+- [x] Optimize column selection
+- [x] Detect and test for N+1 issues
+
+---
+
 ## 💡 Key Insights
 
 ### What Makes Professional Code
 
-1. **Clarity** - Each class has one clear purpose
-2. **Flexibility** - Easy to add features without breaking existing code
-3. **Testability** - Dependencies are injected, not hard-coded
-4. **Maintainability** - Following SOLID makes refactoring safe
-5. **Reusability** - Proper abstractions enable code reuse
+1. **Clarity** — Each class has one clear purpose
+2. **Flexibility** — Easy to add features without breaking existing code
+3. **Testability** — Dependencies are injected, not hard-coded
+4. **Maintainability** — Following SOLID makes refactoring safe
+5. **Reusability** — Proper abstractions enable code reuse
+6. **Performance** — Eager loading prevents silent query explosions at scale
 
 ### Common Pitfalls Avoided
 
 - ❌ God classes (too many responsibilities)
 - ❌ Hard-coded dependencies (not injectable)
-- ❌ Forcing implementations of unused methods
-- ❌ Breaking Liskov Substitution with unexpected behavior
-- ❌ Violating Open/Closed by modifying for each new feature
-
-## 📊 Progress Dashboard
-
-```
-Phase 00: Fill the Critical Gaps
-[███████████████████████████████░░░░░░░░░░░░░] 33% Complete
-
-OOP Pillars:      ✅✅✅✅ Complete
-SOLID Principles: ✅✅✅✅✅ Complete
-DI & IoC:         ⏳ Not Started
-N+1 Problem:      ⏳ Not Started
-CSRF & XSS:       ⏳ Not Started
-SQL Injection:    ⏳ Not Started
-
-Overall Progress: 3/40 modules = 7.5%
-```
-
-## 🚀 Next Milestone
-
-**Current:** SOLID Principles ✅ COMPLETED  
-**Target:** Start Dependency Injection & IoC module  
-**Goal:** Master advanced architectural patterns and container design
-
-## 📚 Resources
-
-- **PHP Version:** 8.5.5+
-- **Type System:** `declare(strict_types=1)` throughout
-- **Patterns:** Professional PHP design patterns
-- **Standards:** PSR-4 autoloading compliance
-- **Testing:** All examples verified and tested
-
-## 🎉 Motivation
-
-You're building a professional foundation. OOP and SOLID aren't just theory—they're the difference between code that's:
-
-- 😖 Hard to test, hard to modify, breaks easily
-- 😊 Testable, flexible, and professional
-
-Keep going! You're doing great! 🌟
+- ❌ Forcing implementations of unused interface methods
+- ❌ Breaking Liskov Substitution with unexpected subclass behavior
+- ❌ Modifying existing code to add new features (Open/Closed violation)
+- ❌ Lazy loading inside loops (N+1)
 
 ---
-
-**Last Updated:** April 17, 2026  
-**Current Focus:** SOLID Principles Deep Dive  
-**Momentum:** Excellent - 🔥 Productive Session
-
-Your learning journey is divided into **4 main phases** with **40 modules** total:
-
-### **Phase 00: Fill the Critical Gaps** (Foundation & Security)
-
-Build solid PHP foundations and learn critical security concepts.
-
-- OOP Pillars ✅
-- SOLID Principles
-- Dependency Injection & IoC
-- N+1 Problem - Full Mastery
-- CSRF & XSS
-- SQL Injection
-
-### **Phase 01: Laravel Deep Mastery** (Framework Expertise)
-
-Master Laravel framework internals and advanced patterns.
-
-- Laravel Request Lifecycle
-- Eloquent ORM - Advanced
-- Queues & Jobs
-- Middleware - Write Your Own
-- REST API Best Practices
-- Authentication - Sanctum Deep Dive
-- Routing - Advanced
-- Laravel Architecture Patterns
-- Events & Listeners
-- Caching
-
-### **Phase 02: Database & Performance** (Database Mastery)
-
-Optimize database queries and master performance techniques.
-
-- MySQL Joins - All Types
-- Indexing - Deep Mastery
-- Transactions & Data Integrity
-- Query Optimization
-- Database Migrations - Advanced
-- Redis & Caching Strategy
-
-### **Phase 03: Security, Testing & Clean Code** (Production Ready)
-
-Write secure, tested, maintainable code.
-
-- Security - All Major Attacks
-- Testing - PHPUnit & Pest
-- Clean Code Practices
-- Error Handling & Logging
-- Git - Professional Level
-- API Documentation
-
-### **Phase 04: Job-Ready Polish** (Career Ready)
-
-Build portfolio, prepare for interviews, and freelance setup.
-
-- Portfolio Project - Exam Management API
-- Interview Preparation
-- Freelance Setup
-- Deployment Basics
-- PHP 8 Modern Features
-- What's Next After Junior
-
-## ✅ What You've Completed
-
-### Phase 00: OOP Pillars
-
-You've mastered the foundational concepts of Object-Oriented Programming:
-
-- Encapsulation, Inheritance, Polymorphism, Abstraction
-- Creating well-structured, reusable code with classes and objects
-- Using interfaces and abstract classes effectively
-
-**Status:** ✅ Complete - Ready for next phase!
-
-## 🎯 Your Next Step
-
-**Start: Phase 00 - Dependency Injection & IoC**
-
-You've now mastered OOP and SOLID principles. Next, dive deep into IoC containers and dependency injection patterns—the architectural foundation for Laravel and enterprise PHP applications.
 
 ## 📖 How to Use This Repository
 
@@ -428,22 +268,61 @@ You've now mastered OOP and SOLID principles. Next, dive deep into IoC container
 5. Update [PROGRESS.md](./PROGRESS.md) as you complete each module
 6. Use the checkpoint modules to review and assess integration
 
-## 🔄 Study Routine
+---
 
-- **Daily:** 30-60 minutes of focused learning
-- **Weekly:** Complete 1-2 modules
-- **Checkpoint:** Take assessment after each phase
-- **Review:** Revisit previous concepts when needed
+## 🔄 Recommended Study Routine
 
-## 📞 Support
+### Daily Review (15–30 min)
 
-If you get stuck:
+```bash
+# 1. Review notes and examples for current module
+code "Phase 00 - Fill the Critical Gaps/05 - CSRF & XSS/"
 
-- Check the `notes.md` file in the current module
-- Review `code-examples.php` for practical patterns
-- Revisit previous modules for foundational concepts
-- Take notes in the respective module's documentation
+# 2. Run the OOP project to keep it fresh
+php "Phase 00 - Fill the Critical Gaps/01 - OOP Pillars/Project/index.php"
+
+# 3. Check progress
+cat PROGRESS.md
+```
+
+### Deep Study Session (1–2 hours)
+
+1. Read all section notes in current module
+2. Study code examples line-by-line
+3. Modify examples to deepen understanding
+4. Look for violations in your own code
+5. Plan refactoring using new principles
+
+### Weekly Review
+
+1. Complete checkpoint module
+2. Integrate learning into sample projects
+3. Update PROGRESS.md
+4. Plan next week's modules
 
 ---
 
-**Remember:** Consistency beats intensity. Small, regular steps will get you to your goal! 🎯
+## 📚 Resources
+
+- **PHP Version:** PHP 8
+- **Type System:** `declare(strict_types=1)` throughout
+- **Patterns:** Professional PHP design patterns
+- **Standards:** PSR-4 autoloading compliance
+- **Testing:** All examples verified and tested
+
+---
+
+## 🎉 Motivation
+
+You're building a professional foundation. OOP, SOLID, DI, and performance optimization aren't just theory — they're the difference between code that's:
+
+- 😖 Hard to test, hard to modify, breaks easily
+- 😊 Testable, flexible, and professional
+
+Four modules down. Keep going! 🌟
+
+---
+
+**Last Updated:** April 18, 2026
+**Current Focus:** CSRF & XSS Security
+**Momentum:** 🔥 Excellent — 4 modules mastered!
