@@ -5,17 +5,18 @@ Welcome to your comprehensive learning journey from PHP fundamentals to job-read
 ## 📍 Quick Navigation
 
 - **[📊 Progress Tracker](./PROGRESS.md)** - View your learning progress and completed modules
-- **[🎯 Next Module](./Phase%2000%20-%20Fill%20the%20Critical%20Gaps/03%20-%20Dependency%20Injection%20%26%20IoC/)** - Dependency Injection & IoC (Not Started)
+- **[🎯 Current Module](./Phase%2000%20-%20Fill%20the%20Critical%20Gaps/03%20-%20Dependency%20Injection%20%26%20IoC/)** - Dependency Injection & IoC (In Progress)
 - **[✅ Completed: OOP Pillars](./Phase%2000%20-%20Fill%20the%20Critical%20Gaps/01%20-%20OOP%20Pillars/)** and **[✅ SOLID Principles](./Phase%2000%20-%20Fill%20the%20Critical%20Gaps/02%20-%20SOLID%20Principles/)** - Both Complete!
 
 ## 📊 Learning Status Summary
 
 | Item                      | Status         | Details                                       |
 | ------------------------- | -------------- | --------------------------------------------- |
-| **Phase 00: Foundations** | 🔄 In Progress | 2/6 complete                                  |
+| **Phase 00: Foundations** | 🔄 In Progress | 2-3/6 complete (2 finished, 1 in progress)    |
 | **OOP Pillars**           | ✅ COMPLETE    | 4/4 pillars mastered, production project done |
 | **SOLID Principles**      | ✅ COMPLETE    | 5/5 principles documented, examples complete  |
-| **Overall Progress**      | 📈 7.5%        | 3/40 modules complete                         |
+| **DI & IoC**              | 🔄 IN PROGRESS | 7/7 pillars documented, code examples ready   |
+| **Overall Progress**      | 📈 7.5%        | 3/40 modules (2 complete, 1 in progress)      |
 
 ## 📚 Curriculum Overview
 
@@ -36,7 +37,11 @@ Build solid PHP foundations and learn critical security concepts.
    - L - Liskov Substitution ✅
    - I - Interface Segregation ✅
    - D - Dependency Inversion ✅
-
+     🔄 **Dependency Injection & IoC** (IN PROGRESS)
+   - Concepts: DI philosophy, types of injection, containers
+   - Service Providers (boot vs register)
+   - Interface binding and singletons
+   - All 7 pillars with code examples
 3. Dependency Injection & IoC
 4. N+1 Problem - Full Mastery
 5. CSRF & XSS
