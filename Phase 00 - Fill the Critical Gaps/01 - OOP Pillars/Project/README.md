@@ -557,13 +557,13 @@ Your code must prevent:
 
 ## 8) Definition of Done (Acceptance Checklist)
 
-- [ ] All 4 OOP pillars are visible in code design
-- [ ] At least 2 interfaces are used by multiple implementations
-- [ ] At least 1 abstract class is used correctly
-- [ ] Services depend on contracts where possible
-- [ ] Invalid state transitions throw clear exceptions
-- [ ] `index.php` demonstrates complete business flow
-- [ ] Code is organized by responsibility and easy to navigate
+- ☑ All 4 OOP pillars are visible in code design
+- ☑ At least 2 interfaces are used by multiple implementations
+- ☑ At least 1 abstract class is used correctly
+- ☑ Services depend on contracts where possible
+- ☑ Invalid state transitions throw clear exceptions
+- ☑ `index.php` demonstrates complete business flow
+- ☑ Code is organized by responsibility and easy to navigate
 
 ---
 
@@ -616,10 +616,10 @@ php index.php
 
 Before sharing your solution, verify:
 
-- [ ] No UI code exists
-- [ ] README updated with your final design decisions
-- [ ] `index.php` runs without fatal errors
-- [ ] At least one invalid scenario is demonstrated and handled
-- [ ] Your code shows both inheritance and composition
+- ☑ No UI code exists
+- ☑ README updated with your final design decisions
+- ☑ `index.php` runs without fatal errors
+- ☑ At least one invalid scenario is demonstrated and handled
+- ☑ Your code shows both inheritance and composition
 
 Good luck. Build it as if a real institute will use it next week.
