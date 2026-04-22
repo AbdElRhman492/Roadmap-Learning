@@ -1,8 +1,8 @@
 # Learning Progress Tracker
 
-**Last Updated:** April 20, 2026
+**Last Updated:** April 22, 2026
 **Current Phase:** Phase 01 - Laravel Deep Mastery (In Progress)
-**Overall Progress:** 8/40 modules (20%) — Phase 00 COMPLETE ✅ | Phase 01 started!
+**Overall Progress:** 9/40 modules (22%) — Phase 00 COMPLETE ✅ | Phase 01: 2/11 modules
 
 ---
 
@@ -11,7 +11,7 @@
 | Phase    | Title                          | Status         | Completion |
 | -------- | ------------------------------ | -------------- | ---------- |
 | Phase 00 | Fill the Critical Gaps         | ✅ COMPLETE    | 7/7        |
-| Phase 01 | Laravel Deep Mastery           | 🔄 In Progress | 1/11       |
+| Phase 01 | Laravel Deep Mastery           | 🔄 In Progress | 2/11       |
 | Phase 02 | Database & Performance         | ⏳ Not Started | 0/6        |
 | Phase 03 | Security, Testing & Clean Code | ⏳ Not Started | 0/6        |
 | Phase 04 | Job-Ready Polish               | ⏳ Not Started | 0/6        |
@@ -433,12 +433,99 @@ Master Laravel framework internals and advanced patterns.
 
 ---
 
+### ✅ 02 - Eloquent ORM - Advanced (COMPLETED — 100%)
+
+**Status:** ✅ COMPLETE with Production-Ready Code Examples
+
+**Understanding:** Advanced Eloquent techniques for building complex database relationships, transforming model data, executing logic at specific lifecycle points, and optimizing queries.
+
+**Topics Covered:**
+
+- ✅ **All 6 Relationship Types**
+  - One-to-One: User hasOne Profile
+  - One-to-Many: Post hasMany Comments
+  - Many-to-Many: Post hasMany Tags
+  - Has-Many-Through: Country hasMany Posts through Users
+  - Polymorphic Relations: Image morphs to Post/User/Comment
+  - Many-to-Many Polymorphic: Multiple models with same related model
+- ✅ **Advanced Querying with Relationships**
+  - `whereHas()` — Filter by relationship conditions
+  - `doesntHave()` & `whereDoesntHave()` — Inverse filtering
+  - `with()` — Eager loading to prevent N+1
+  - `withCount()` — Count without loading
+  - `withSum()`, `withAvg()`, `withMin()`, `withMax()` — Aggregations
+- ✅ **Pivot Tables - Many-to-Many Data**
+  - `withPivot()` — Include pivot columns
+  - `wherePivot()` — Filter by pivot columns
+  - `sync()`, `attach()`, `detach()`, `toggle()` — Pivot manipulation
+- ✅ **Accessors & Mutators**
+  - Modern PHP 8 `#[Attribute]` syntax (recommended)
+  - Getter/setter implementations
+  - Data transformation on retrieval/storage
+  - Computed properties
+  - Password hashing, date formatting, currency conversion
+- ✅ **Model Events**
+  - Lifecycle hooks: `creating`, `created`, `updating`, `updated`, `deleting`, `deleted`
+  - `saving`, `saved`, `restoring`, `restored` events
+  - Business logic execution at specific points
+  - Best practices for event handlers
+- ✅ **Observers**
+  - Extracting event logic into separate classes
+  - Single Responsibility Principle
+  - Registering and using observers
+  - Improved testability and maintainability
+- ✅ **Soft Deletes**
+  - Mark as deleted without removing data
+  - `withTrashed()` — Include soft deleted
+  - `onlyTrashed()` — Only soft deleted
+  - `restore()` & `forceDelete()` — Restore or permanently delete
+  - Use cases: audit trails, recovery features, compliance
+- ✅ **Scopes**
+  - Local Scopes: Optional query filters
+  - Global Scopes: Automatic filtering
+  - Query reusability and readability
+  - Bypassing global scopes when needed
+- ✅ **Eloquent vs Query Builder**
+  - When to use each approach
+  - Performance considerations
+  - N+1 prevention strategies
+  - Mixed approach for complex queries
+
+**Files:**
+
+- [notes.md](./Phase%2001%20-%20Laravel%20Deep%20Mastery/02%20-%20Eloquent%20ORM%20-%20Advanced/notes.md) — Comprehensive theory guide with all 9 pillars
+- [code-examples.php](./Phase%2001%20-%20Laravel%20Deep%20Mastery/02%20-%20Eloquent%20ORM%20-%20Advanced/code-examples.php) — 500+ lines of production-ready examples
+
+**Key Achievements:**
+
+- ✅ All 6 relationship types fully documented
+- ✅ Advanced querying patterns with examples
+- ✅ Pivot table operations and data handling
+- ✅ Modern Attribute syntax for accessors/mutators
+- ✅ Model events lifecycle and best practices
+- ✅ Observer pattern for clean code
+- ✅ Soft delete implementation and use cases
+- ✅ Local and global scope patterns
+- ✅ Eloquent vs Query Builder decision matrix
+- ✅ N+1 problem prevention techniques
+- ✅ Real-world examples for each topic
+- ✅ Complete checkpoint mastery checklist
+
+**Deliverables:**
+
+- ✅ Complete understanding of all advanced Eloquent topics
+- ✅ 500+ lines of production code examples
+- ✅ Best practices and anti-patterns identified
+- ✅ Ready for Phase 01/03 (Queues & Jobs)
+
+---
+
 ### 📋 Phase 01 Module Overview
 
-Remaining modules (10/11):
+Remaining modules (9/11):
 
 1. ✅ **01 - Laravel Request Lifecycle** — COMPLETE
-2. ⏳ **02 - Eloquent ORM - Advanced** — Not Started
+2. ✅ **02 - Eloquent ORM - Advanced** — COMPLETE
 3. ⏳ **03 - Queues & Jobs** — Not Started
 4. ⏳ **04 - Middleware - Write Your Own** — Not Started
 5. ⏳ **05 - REST API Best Practices** — Not Started
@@ -448,6 +535,8 @@ Remaining modules (10/11):
 9. ⏳ **09 - Events & Listeners** — Not Started
 10. ⏳ **10 - Caching** — Not Started
 11. ⏳ **Checkpoint** — Not Started
+
+---
 
 ---
 
@@ -466,17 +555,17 @@ Remaining: 0 modules
 ### Phase 01 Progress
 
 ```
-[██░░░░░░░░░░░░░░░░░░░░] 9% (1/11 modules) 🔄 IN PROGRESS
+[████░░░░░░░░░░░░░░░░░░░░░░░░░] 18% (2/11 modules) 🔄 IN PROGRESS
 
-Completed: Laravel Request Lifecycle
+Completed: Laravel Request Lifecycle, Eloquent ORM - Advanced
 In Progress: None
-Remaining: 10 modules
+Remaining: 9 modules
 ```
 
 ### Overall Learning Progress
 
 ```
-[████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 20% (8/40 modules)
+[█████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 22% (9/40 modules)
 ```
 
 ---
@@ -536,8 +625,8 @@ Remaining: 10 modules
 
 ### Immediate
 
-1. 🚀 Begin Phase 01 — Laravel Deep Mastery
-2. Start with **Laravel Request Lifecycle** (Module 01)
+1. ✅ Phase 01 Progress: 2/11 modules complete
+2. 🚀 Next Module: **03 - Queues & Jobs**
 
 ### Phase 01 Roadmap
 

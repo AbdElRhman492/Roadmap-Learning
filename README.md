@@ -8,25 +8,26 @@ Welcome to your comprehensive learning journey from PHP fundamentals to job-read
 
 - **[📊 Progress Tracker](./PROGRESS.md)** — View your learning progress and completed modules
 - **[✅ Phase 00 COMPLETE!](./Phase%2000%20-%20Fill%20the%20Critical%20Gaps/)** — All 6 modules + checkpoint done!
-- **[🔄 Phase 01 in Progress](./Phase%2001%20-%20Laravel%20Deep%20Mastery/)** — Laravel Deep Mastery - 1/11 modules complete
+- **[🔄 Phase 01 in Progress](./Phase%2001%20-%20Laravel%20Deep%20Mastery/)** — Laravel Deep Mastery - 2/11 modules complete
 
 ---
 
 ## 📊 Learning Status Summary
 
-| Item                          | Status      | Details                                       |
-| ----------------------------- | ----------- | --------------------------------------------- |
-| **Phase 00: Foundations**     | ✅ COMPLETE | 7/7 complete (6 modules + checkpoint)         |
-| **Phase 01: Laravel Mastery** | 🔄 Started  | 1/11 complete (Request Lifecycle done)        |
-| **OOP Pillars**               | ✅ COMPLETE | 4/4 pillars mastered, production project done |
-| **SOLID Principles**          | ✅ COMPLETE | 5/5 principles documented, examples complete  |
-| **DI & IoC**                  | ✅ COMPLETE | 7/7 pillars documented, production patterns   |
-| **N+1 Problem**               | ✅ COMPLETE | All 7 techniques with SQL comparisons         |
-| **CSRF & XSS**                | ✅ COMPLETE | CSRF tokens, XSS prevention, 800+ lines code  |
-| **SQL Injection**             | ✅ COMPLETE | 6 attack types, PDO, Eloquent, 900+ lines     |
-| **Phase 00 Checkpoint**       | ✅ COMPLETE | All concepts integrated and assessed          |
-| **Laravel Request Lifecycle** | ✅ COMPLETE | Complete lifecycle flow documented            |
-| **Overall Progress**          | 📈 20%      | 8/40 modules complete                         |
+| Item                          | Status      | Details                                         |
+| ----------------------------- | ----------- | ----------------------------------------------- |
+| **Phase 00: Foundations**     | ✅ COMPLETE | 7/7 complete (6 modules + checkpoint)           |
+| **Phase 01: Laravel Mastery** | 🔄 Started  | 2/11 complete (Request Lifecycle + Eloquent)    |
+| **OOP Pillars**               | ✅ COMPLETE | 4/4 pillars mastered, production project done   |
+| **SOLID Principles**          | ✅ COMPLETE | 5/5 principles documented, examples complete    |
+| **DI & IoC**                  | ✅ COMPLETE | 7/7 pillars documented, production patterns     |
+| **N+1 Problem**               | ✅ COMPLETE | All 7 techniques with SQL comparisons           |
+| **CSRF & XSS**                | ✅ COMPLETE | CSRF tokens, XSS prevention, 800+ lines code    |
+| **SQL Injection**             | ✅ COMPLETE | 6 attack types, PDO, Eloquent, 900+ lines       |
+| **Phase 00 Checkpoint**       | ✅ COMPLETE | All concepts integrated and assessed            |
+| **Laravel Request Lifecycle** | ✅ COMPLETE | Complete lifecycle flow documented              |
+| **Eloquent ORM - Advanced**   | ✅ COMPLETE | All 6 relationships, scopes, events, 500+ lines |
+| **Overall Progress**          | 📈 22%      | 9/40 modules complete                           |
 
 ---
 
@@ -98,7 +99,17 @@ Master Laravel framework internals and advanced patterns.
   - Entry point to response explained
   - 9 core concepts mastered
   - Ready for next module
-- Laravel Eloquent ORM — Advanced
+
+- ✅ **Eloquent ORM - Advanced** — COMPLETED
+  - All 6 relationship types with examples
+  - whereHas(), withCount(), withSum() patterns
+  - Pivot tables with custom columns
+  - Accessors & Mutators (PHP 8 Attribute syntax)
+  - Model Events and Observers
+  - Soft Deletes implementation
+  - Global and Local Scopes
+  - Eloquent vs Query Builder comparison
+  - 500+ lines of practical code examples
 - Queues & Jobs
 - Middleware — Write Your Own
 - REST API Best Practices
