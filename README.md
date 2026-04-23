@@ -8,7 +8,7 @@ Welcome to your comprehensive learning journey from PHP fundamentals to job-read
 
 - **[📊 Progress Tracker](./PROGRESS.md)** — View your learning progress and completed modules
 - **[✅ Phase 00 COMPLETE!](./Phase%2000%20-%20Fill%20the%20Critical%20Gaps/)** — All 6 modules + checkpoint done!
-- **[🔄 Phase 01 in Progress](./Phase%2001%20-%20Laravel%20Deep%20Mastery/)** — Laravel Deep Mastery - 2/11 modules complete
+- **[🔄 Phase 01 in Progress](./Phase%2001%20-%20Laravel%20Deep%20Mastery/)** — Laravel Deep Mastery - 3/11 modules complete
 
 ---
 
@@ -17,7 +17,7 @@ Welcome to your comprehensive learning journey from PHP fundamentals to job-read
 | Item                          | Status      | Details                                         |
 | ----------------------------- | ----------- | ----------------------------------------------- |
 | **Phase 00: Foundations**     | ✅ COMPLETE | 7/7 complete (6 modules + checkpoint)           |
-| **Phase 01: Laravel Mastery** | 🔄 Started  | 2/11 complete (Request Lifecycle + Eloquent)    |
+| **Phase 01: Laravel Mastery** | 🔄 Started  | 3/11 complete (Lifecycle, Eloquent, Queues)     |
 | **OOP Pillars**               | ✅ COMPLETE | 4/4 pillars mastered, production project done   |
 | **SOLID Principles**          | ✅ COMPLETE | 5/5 principles documented, examples complete    |
 | **DI & IoC**                  | ✅ COMPLETE | 7/7 pillars documented, production patterns     |
@@ -27,7 +27,8 @@ Welcome to your comprehensive learning journey from PHP fundamentals to job-read
 | **Phase 00 Checkpoint**       | ✅ COMPLETE | All concepts integrated and assessed            |
 | **Laravel Request Lifecycle** | ✅ COMPLETE | Complete lifecycle flow documented              |
 | **Eloquent ORM - Advanced**   | ✅ COMPLETE | All 6 relationships, scopes, events, 500+ lines |
-| **Overall Progress**          | 📈 22%      | 9/40 modules complete                           |
+| **Queues & Jobs**             | ✅ COMPLETE | Queue drivers, workers, chaining, 650+ lines    |
+| **Overall Progress**          | 📈 25%      | 10/40 modules complete                          |
 
 ---
 
@@ -98,7 +99,24 @@ Master Laravel framework internals and advanced patterns.
   - Complete HTTP request flow documented
   - Entry point to response explained
   - 9 core concepts mastered
-  - Ready for next module
+
+- ✅ **Eloquent ORM - Advanced** — COMPLETED
+  - All 6 relationship types with examples
+  - Advanced querying patterns (whereHas, withCount, withSum)
+  - Pivot tables, accessors/mutators
+  - Model events and observers
+  - Soft deletes and scopes
+  - 500+ lines of production code
+
+- ✅ **Queues & Jobs** — COMPLETED
+  - Queue drivers (sync, database, Redis)
+  - Job creation and dispatching
+  - Worker management and Supervisor setup
+  - Retry logic with exponential backoff
+  - Job chaining for multi-step workflows
+  - Delayed dispatch and scheduling
+  - Real-world bulk email scenarios
+  - 650+ lines of production code
 
 - ✅ **Eloquent ORM - Advanced** — COMPLETED
   - All 6 relationship types with examples
