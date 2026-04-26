@@ -28,6 +28,8 @@ bootstrap/cache/
 # Logs
 *.log
 
+test/
+
 # OS files
 Thumbs.db
 
